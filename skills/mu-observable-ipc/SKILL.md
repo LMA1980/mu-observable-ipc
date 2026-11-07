@@ -1,11 +1,11 @@
 ---
-name: muobserve-ipc-wire
-description: "Build zero-copy MUOB wire frames, Apache Arrow OTEL/regression batches, Apache Fory RPCs, W3C TraceContext headers, and secret redaction with muobserve-ipc."
+name: mu-observable-ipc
+description: "Build zero-copy MUOB wire frames, Apache Arrow OTEL/regression batches, Apache Fory RPCs, W3C TraceContext headers, and secret redaction with mu-observable-ipc."
 ---
 
-# `muobserve-ipc` Telemetry Framing & Wire Contracts
+# `mu-observable-ipc` Telemetry Framing & Wire Contracts
 
-Use these guidelines when emitting or consuming telemetry and control-plane RPCs with `muobserve-ipc`:
+Use these guidelines when emitting or consuming telemetry and control-plane RPCs with `mu-observable-ipc`:
 
 ## 1. `MUOB` Wire Framing & Payloads
 

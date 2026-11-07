@@ -1,6 +1,6 @@
 use thiserror::Error;
 
-/// Canonical error variants for `muobserve-ipc` framing, Arrow batch codecs,
+/// Canonical error variants for `mu-observable-ipc` framing, Arrow batch codecs,
 /// W3C `traceparent` parsing, and Apache Fory control-plane RPC serialization.
 #[derive(Error, Debug)]
 pub enum IpcError {
