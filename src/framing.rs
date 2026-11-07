@@ -208,7 +208,7 @@ mod tests {
 
     #[tokio::test]
     async fn test_async_read_write_frame_roundtrip() {
-        let payload = b"muobserve-ipc telemetry frame payload".to_vec();
+        let payload = b"mu-observable-ipc telemetry frame payload".to_vec();
         let header = IpcHeader::new(
             MSG_TYPE_ARROW_OTEL_SPANS,
             payload.len() as u32,

@@ -1,4 +1,4 @@
-use muobserve_ipc::{
+use mu_observable_ipc::{
     decode_benchmark_run_batch, decode_control_envelope, decode_log_batch, decode_metric_batch,
     decode_span_batch, decode_test_run_batch, encode_benchmark_run_batch, encode_control_envelope,
     encode_log_batch, encode_metric_batch, encode_span_batch, encode_test_run_batch, read_frame,
@@ -112,10 +112,10 @@ async fn test_multiplexed_arrow_and_fory_stream_roundtrip() {
     // 5. TestCaseRunEntry & BenchmarkRunEntry batches over MUOB frames
     let test_run = TestCaseRunEntry {
         job_id: "job-500".to_string(),
-        repo_key: "lma1980/muobserve-ipc".to_string(),
-        branch_key: "feat/wave1-muobserve-ipc".to_string(),
+        repo_key: "lma1980/mu-observable-ipc".to_string(),
+        branch_key: "feat/wave1-mu-observable-ipc".to_string(),
         commit_sha: "0123456789abcdef".to_string(),
-        crate_name: "muobserve-ipc".to_string(),
+        crate_name: "mu-observable-ipc".to_string(),
         test_binary: "ipc_roundtrip".to_string(),
         test_name: "test_multiplexed_arrow_and_fory_stream_roundtrip".to_string(),
         status: "ok".to_string(),

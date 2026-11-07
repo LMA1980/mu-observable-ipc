@@ -1,4 +1,4 @@
-//! `muobserve-ipc`: Shared wire contracts, Apache Arrow schemas, W3C trace context,
+//! `mu-observable-ipc`: Shared wire contracts, Apache Arrow schemas, W3C trace context,
 //! deterministic secret redaction, and Apache Fory RPC envelopes for MuObserve.
 
 pub mod arrow_otel;
