@@ -1,6 +1,6 @@
 [package]
 name = "mu-observable-ipc"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Shared wire contracts, Apache Arrow telemetry schemas, OTEL span envelopes, and Apache Fory RPC protocols for MuObserve distributed observability"
 license = "LGPL-3.0-only WITH LGPL-3.0-linking-exception"
